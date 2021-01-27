@@ -146,6 +146,35 @@
           </tr>
         </table>
 
+ <!–– Synchrotron Radiation Workshop: 2D Random Objects ––> 
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr onmouseout="SRW_stop()" onmouseover="SRW_start()">
+            <td width="25%">
+              <div class="one">
+                <div class="two" id='SRW_image'><img src='images/SRW_after.jpg'></div>
+                <img src='images/SRW_before.jpg'>
+              </div>
+              <script type="text/javascript">
+                function SRW_start() {
+                  document.getElementById('SRW_image').style.opacity = "1";
+                }
+
+                function SRW_stop() {
+                  document.getElementById('SRW_image').style.opacity = "0";
+                }
+                SRW_stop()
+              </script>
+            </td>
+            <td valign="middle" width="75%">
+                <papertitle>Synchrotron Radiation Workshop: 2D Random Objects</papertitle>
+              <br>
+              <a href="https://github.com/racoles/SRW_2D_random_objects">project page</a>
+              <p></p>
+              <p>To be used with Synchrotron Radiation Workshop (SRW) and in the Sirepo web browser based GUI supporting definition of models created from simulation examples with sample models defined based on geometrical and statistical characteristics.</p>
+            </td>
+          </tr>
+      </table>
+
  <!–– NSLSII CHX Data Acquisition from BlueSky ––> 
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
           <tr onmouseout="CHX_stop()" onmouseover="CHX_start()">
